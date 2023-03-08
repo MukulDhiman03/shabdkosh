@@ -1,0 +1,36 @@
+.title {
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-family: 'Tilt Prism', cursive;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width:900px) {
+    .header {
+        height: 25vh;
+    }
+
+    .title {
+        font-size: 8vh;
+    }
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search {
+    width: 25vw;
+}
+.select{
+    width: 15vw;
+}
